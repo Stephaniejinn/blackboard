@@ -34,23 +34,23 @@ const MySider = () => {
       <Menu.Item key="/announcement" icon={<NotificationOutlined />}>
         <Link to="/announcement">Announcement</Link>
       </Menu.Item>
-      <Menu.Item key="4" icon={<EditOutlined />}>
-        Assignment
+      <Menu.Item key="/assignment" icon={<EditOutlined />}>
+        <Link to="/assignment">Assignment</Link>
       </Menu.Item>
-      <Menu.Item key="5" icon={<RiseOutlined />}>
-        Grade
+      <Menu.Item key="/grade" icon={<RiseOutlined />}>
+        <Link to="/grade">Grade</Link>
       </Menu.Item>
-      <Menu.Item key="6" icon={<FolderOpenOutlined />}>
-        Material
+      <Menu.Item key="/material" icon={<FolderOpenOutlined />}>
+        <Link to="/material">Material</Link>
       </Menu.Item>
-      <Menu.Item key="7" icon={<CalendarOutlined />}>
-        Calendar
+      <Menu.Item key="/calendar" icon={<CalendarOutlined />}>
+        <Link to="/calendar">Calendar</Link>
       </Menu.Item>
-      <Menu.Item key="8" icon={<ReadOutlined />}>
-        Library
+      <Menu.Item key="/library" icon={<ReadOutlined />}>
+        <Link to="/library">Library</Link>
       </Menu.Item>
-      <Menu.Item key="9" icon={<CustomerServiceOutlined />}>
-        Student Service
+      <Menu.Item key="/studentservice" icon={<CustomerServiceOutlined />}>
+        <Link to="/studentservice">Student Service</Link>
       </Menu.Item>
     </Menu>
   );

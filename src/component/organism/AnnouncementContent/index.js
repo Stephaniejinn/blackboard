@@ -30,7 +30,7 @@ const AnnouncementContent = () => {
       >
         <PageHeader
           className="site-page-header"
-          onBack={() => null}
+          onBack={() => window.history.back()}
           title="Announcement"
           subTitle="| 2021 Fall"
         />
